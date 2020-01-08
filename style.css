@@ -1,0 +1,51 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+/*    to make our image cover the entire background of the page we used css tricks website and first made the image fixed to the center with no scroll aloud than we gave it the background-size cover*/
+}
+
+h1 {
+    color: #f8f9fa;
+    font-weight: bold;
+
+}
+
+.buffer{
+    height: 10rem;
+}
+hr{
+    background-color: #F05F44; 
+    border-width: 3px;
+    max-width: 65px;
+}
+.btn{
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+.btn-primary {
+    background-color:#F05F44;
+    border-color: #F05F44;
+}
+
+.btn-primary:hover {
+    background-color:#F05F44;
+    border-color: #F05F44;
+    border-width: 4px;
+}
+
+/*when we hover on the button its border width increases and so the distance between hr and button and between hr and the h1 also increases and so thats why the h1 and hr appears to moving up within the container when we hover on the button.*/
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
+.footer {
+    color: cadetblue;
+}
